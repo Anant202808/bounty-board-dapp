@@ -1,5 +1,10 @@
 {
+  "buildCommand": "cd app && npm install && npm run build",
+  "outputDirectory": "app/dist",
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
   ]
 }
